@@ -28,9 +28,10 @@ section {
     left: 50%;
     margin-left: -100px;
     margin-top: -100px;
+    transition: 0.5s;
 
     &:nth-of-type(1) {
-      opacity: 0.5;
+      opacity: 0;
       transform: translateX(-100%) scale(0.4);
     }
     &:nth-of-type(2) {
@@ -38,7 +39,7 @@ section {
       transform: translateX(0%) scale(1);
     }
     &:nth-of-type(3) {
-      opacity: 0.5;
+      opacity: 0;
       transform: translateX(100%) scale(0.4);
     }
   }
@@ -55,9 +56,9 @@ button {
   cursor: pointer;
 
   &.prev {
-    left: 10vw;
+    left: 30vw;
   }
   &.next {
-    right: 10vw;
+    right: 30vw;
   }
 }

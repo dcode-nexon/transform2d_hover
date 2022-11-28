@@ -31,9 +31,10 @@ section article {
   left: 50%;
   margin-left: -100px;
   margin-top: -100px;
+  transition: 0.5s;
 }
 section article:nth-of-type(1) {
-  opacity: 0.5;
+  opacity: 0;
   transform: translateX(-100%) scale(0.4);
 }
 section article:nth-of-type(2) {
@@ -41,7 +42,7 @@ section article:nth-of-type(2) {
   transform: translateX(0%) scale(1);
 }
 section article:nth-of-type(3) {
-  opacity: 0.5;
+  opacity: 0;
   transform: translateX(100%) scale(0.4);
 }
 
@@ -56,10 +57,10 @@ button {
   cursor: pointer;
 }
 button.prev {
-  left: 10vw;
+  left: 30vw;
 }
 button.next {
-  right: 10vw;
+  right: 30vw;
 }
 
 /*# sourceMappingURL=style.css.map */
